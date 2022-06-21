@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/subwayminder/console.git",
-                "reference": "458c6fceeb648e8c6ed9274a09e358d9acaf0230"
+                "reference": "2159b5734721776a51d7d66ca5688d703ba590e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/subwayminder/console/zipball/458c6fceeb648e8c6ed9274a09e358d9acaf0230",
-                "reference": "458c6fceeb648e8c6ed9274a09e358d9acaf0230",
+                "url": "https://api.github.com/repos/subwayminder/console/zipball/2159b5734721776a51d7d66ca5688d703ba590e8",
+                "reference": "2159b5734721776a51d7d66ca5688d703ba590e8",
                 "shasum": ""
             },
             "default-branch": true,
@@ -41,7 +41,7 @@
                 "source": "https://github.com/subwayminder/console/tree/master",
                 "issues": "https://github.com/subwayminder/console/issues"
             },
-            "time": "2022-06-21T09:56:37+00:00"
+            "time": "2022-06-21T11:13:09+00:00"
         }
     ],
     "packages-dev": [],
