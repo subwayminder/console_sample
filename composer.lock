@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "566127f9d81620335f00fa27d0339aa2",
+    "packages": [
+        {
+            "name": "subwayminder/console",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/subwayminder/console.git",
+                "reference": "59c8939899f0741af07f983bfbd3f39915ba49e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/subwayminder/console/zipball/59c8939899f0741af07f983bfbd3f39915ba49e5",
+                "reference": "59c8939899f0741af07f983bfbd3f39915ba49e5",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Subwayminder\\Console\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "subwayminder",
+                    "email": "subwayminder@gmail.com"
+                }
+            ],
+            "description": "Simple console library",
+            "support": {
+                "source": "https://github.com/subwayminder/console/tree/master",
+                "issues": "https://github.com/subwayminder/console/issues"
+            },
+            "time": "2022-06-21T09:12:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "subwayminder/console": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

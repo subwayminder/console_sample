@@ -1,0 +1,27 @@
+{
+    "name": "subwayminder/console_sample",
+    "description": "Sample for console package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "subwayminder",
+            "email": "subwayminder@gmail.com"
+        }
+    ],
+    "require": {
+        "subwayminder/console" : "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/subwayminder/console.git"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Subwayminder\\ConsoleSample\\": "app/"
+        }
+    }
+}
