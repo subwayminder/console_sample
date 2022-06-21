@@ -12,11 +12,6 @@ use Subwayminder\Console\Commands\Command;
 use Subwayminder\Console\Output\Output;
 use Subwayminder\ConsoleSample\TestCommandHandler;
 
-$input = new ArgsInput();
-//var_dump($argv);
-//var_dump($input->getArguments());
-//var_dump($input->getParams());
-
 $app = new DefaultApplication('sample_application', new ArgsInput(), new Output());
 $app
     ->addCommand(

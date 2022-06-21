@@ -23,7 +23,7 @@ class TestCommandHandler implements ICommandHandler
         /**
          * @var Argument $argument
          */
-        $output->writeLn(0, 'Command name' . $input->getCommand());
+        $output->writeLn(0, 'Command name: ' . $input->getCommand());
 
         $output->writeLn(0, 'Arguments:');
         foreach ($input->getArguments() as $argument){
